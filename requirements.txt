@@ -1,0 +1,10 @@
+beautifulsoup4==4.12.2
+requests==2.31.0
+selenium==4.10.0
+pandas==2.0.3
+pymongo==4.4.1
+SQLAlchemy>=2.0.36
+psycopg2-binary==2.9.6
+fastapi==0.100.0
+uvicorn==0.23.1
+python-dotenv==1.0.0

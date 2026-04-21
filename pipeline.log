@@ -1,0 +1,130 @@
+2026-04-21 16:26:16,497 [INFO] __main__: =========================================
+2026-04-21 16:26:16,497 [INFO] __main__: Starting Automated Job Data Pipeline...
+2026-04-21 16:26:16,497 [INFO] __main__: =========================================
+2026-04-21 16:26:16,497 [INFO] __main__: Running Static Scraper...
+2026-04-21 16:26:19,110 [INFO] scraper.static_scraper: Fetching [STATIC]: https://realpython.github.io/fake-jobs/ (Attempt 1/3)
+2026-04-21 16:26:20,009 [INFO] scraper.static_scraper: Successfully scraped 100 jobs statically.
+2026-04-21 16:26:20,011 [INFO] __main__: Running Dynamic Scraper...
+2026-04-21 16:26:24,004 [ERROR] scraper.dynamic_scraper: Error during dynamic scraping: Message: Unable to obtain chromedriver using Selenium Manager; Message: Unsuccessful command executed: C:\Users\rites\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --output json.
+The chromedriver version cannot be discovered
+; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2026-04-21 16:26:24,005 [INFO] scraper.dynamic_scraper: Successfully scraped 0 jobs dynamically.
+2026-04-21 16:26:24,005 [INFO] __main__: Total jobs scraped: 100
+2026-04-21 16:26:24,005 [INFO] __main__: Loading raw data to MongoDB...
+2026-04-21 16:26:24,042 [INFO] pipeline.load_mongo: Connected to MongoDB successfully.
+2026-04-21 16:26:24,167 [INFO] pipeline.load_mongo: Successfully loaded 100 raw documents into MongoDB.
+2026-04-21 16:26:24,167 [INFO] __main__: Transforming and cleaning data...
+2026-04-21 16:26:24,191 [INFO] pipeline.transform: Transforming dataset with 100 records.
+2026-04-21 16:26:24,205 [INFO] pipeline.transform: Removed 0 duplicate records.
+2026-04-21 16:26:24,208 [INFO] pipeline.transform: Data transformation complete.
+2026-04-21 16:26:24,208 [INFO] __main__: Loading structured data to PostgreSQL...
+2026-04-21 16:26:24,332 [INFO] pipeline.load_postgres: Connected to PostgreSQL successfully.
+2026-04-21 16:26:24,374 [INFO] pipeline.load_postgres: Table 'jobs' is ready.
+2026-04-21 16:26:24,404 [ERROR] pipeline.load_postgres: Error loading data to PostgreSQL: 'Engine' object has no attribute 'cursor'
+2026-04-21 16:26:24,404 [INFO] __main__: Pipeline finished successfully in 7.91 seconds.
+2026-04-21 16:26:24,405 [INFO] __main__: =========================================
+2026-04-21 16:26:57,438 [INFO] __main__: =========================================
+2026-04-21 16:26:57,438 [INFO] __main__: Starting Automated Job Data Pipeline...
+2026-04-21 16:26:57,438 [INFO] __main__: =========================================
+2026-04-21 16:26:57,440 [INFO] __main__: Running Static Scraper...
+2026-04-21 16:26:59,068 [INFO] scraper.static_scraper: Fetching [STATIC]: https://realpython.github.io/fake-jobs/ (Attempt 1/3)
+2026-04-21 16:26:59,823 [INFO] scraper.static_scraper: Successfully scraped 100 jobs statically.
+2026-04-21 16:26:59,824 [INFO] __main__: Running Dynamic Scraper...
+2026-04-21 16:27:03,376 [ERROR] scraper.dynamic_scraper: Error during dynamic scraping: Message: Unable to obtain chromedriver using Selenium Manager; Message: Unsuccessful command executed: C:\Users\rites\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --output json.
+The chromedriver version cannot be discovered
+; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2026-04-21 16:27:03,376 [INFO] scraper.dynamic_scraper: Successfully scraped 0 jobs dynamically.
+2026-04-21 16:27:03,376 [INFO] __main__: Total jobs scraped: 100
+2026-04-21 16:27:03,376 [INFO] __main__: Loading raw data to MongoDB...
+2026-04-21 16:27:03,399 [INFO] pipeline.load_mongo: Connected to MongoDB successfully.
+2026-04-21 16:27:03,402 [INFO] pipeline.load_mongo: Successfully loaded 100 raw documents into MongoDB.
+2026-04-21 16:27:03,402 [INFO] __main__: Transforming and cleaning data...
+2026-04-21 16:27:03,409 [INFO] pipeline.transform: Transforming dataset with 100 records.
+2026-04-21 16:27:03,413 [INFO] pipeline.transform: Removed 0 duplicate records.
+2026-04-21 16:27:03,414 [INFO] pipeline.transform: Data transformation complete.
+2026-04-21 16:27:03,414 [INFO] __main__: Loading structured data to PostgreSQL...
+2026-04-21 16:27:03,480 [INFO] pipeline.load_postgres: Connected to PostgreSQL successfully.
+2026-04-21 16:27:03,482 [INFO] pipeline.load_postgres: Table 'jobs' is ready.
+2026-04-21 16:27:03,488 [ERROR] pipeline.load_postgres: Error loading data to PostgreSQL: 'Connection' object has no attribute 'cursor'
+2026-04-21 16:27:03,488 [INFO] __main__: Pipeline finished successfully in 6.05 seconds.
+2026-04-21 16:27:03,488 [INFO] __main__: =========================================
+2026-04-21 16:27:39,382 [INFO] __main__: =========================================
+2026-04-21 16:27:39,383 [INFO] __main__: Starting Automated Job Data Pipeline...
+2026-04-21 16:27:39,383 [INFO] __main__: =========================================
+2026-04-21 16:27:39,383 [INFO] __main__: Running Static Scraper...
+2026-04-21 16:27:41,355 [INFO] scraper.static_scraper: Fetching [STATIC]: https://realpython.github.io/fake-jobs/ (Attempt 1/3)
+2026-04-21 16:27:41,865 [INFO] scraper.static_scraper: Successfully scraped 100 jobs statically.
+2026-04-21 16:27:41,865 [INFO] __main__: Running Dynamic Scraper...
+2026-04-21 16:27:45,071 [ERROR] scraper.dynamic_scraper: Error during dynamic scraping: Message: Unable to obtain chromedriver using Selenium Manager; Message: Unsuccessful command executed: C:\Users\rites\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --output json.
+The chromedriver version cannot be discovered
+; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2026-04-21 16:27:45,072 [INFO] scraper.dynamic_scraper: Successfully scraped 0 jobs dynamically.
+2026-04-21 16:27:45,072 [INFO] __main__: Total jobs scraped: 100
+2026-04-21 16:27:45,072 [INFO] __main__: Loading raw data to MongoDB...
+2026-04-21 16:27:45,081 [INFO] pipeline.load_mongo: Connected to MongoDB successfully.
+2026-04-21 16:27:45,084 [INFO] pipeline.load_mongo: Successfully loaded 100 raw documents into MongoDB.
+2026-04-21 16:27:45,084 [INFO] __main__: Transforming and cleaning data...
+2026-04-21 16:27:45,088 [INFO] pipeline.transform: Transforming dataset with 100 records.
+2026-04-21 16:27:45,092 [INFO] pipeline.transform: Removed 0 duplicate records.
+2026-04-21 16:27:45,093 [INFO] pipeline.transform: Data transformation complete.
+2026-04-21 16:27:45,094 [INFO] __main__: Loading structured data to PostgreSQL...
+2026-04-21 16:27:45,179 [INFO] pipeline.load_postgres: Connected to PostgreSQL successfully.
+2026-04-21 16:27:45,183 [INFO] pipeline.load_postgres: Table 'jobs' is ready.
+2026-04-21 16:27:45,191 [ERROR] pipeline.load_postgres: Error loading data to PostgreSQL: 'Engine' object has no attribute 'cursor'
+2026-04-21 16:27:45,191 [INFO] __main__: Pipeline finished successfully in 5.81 seconds.
+2026-04-21 16:27:45,191 [INFO] __main__: =========================================
+2026-04-21 16:28:21,955 [INFO] __main__: =========================================
+2026-04-21 16:28:21,956 [INFO] __main__: Starting Automated Job Data Pipeline...
+2026-04-21 16:28:21,956 [INFO] __main__: =========================================
+2026-04-21 16:28:21,957 [INFO] __main__: Running Static Scraper...
+2026-04-21 16:28:24,522 [INFO] scraper.static_scraper: Fetching [STATIC]: https://realpython.github.io/fake-jobs/ (Attempt 1/3)
+2026-04-21 16:28:25,120 [INFO] scraper.static_scraper: Successfully scraped 100 jobs statically.
+2026-04-21 16:28:25,121 [INFO] __main__: Running Dynamic Scraper...
+2026-04-21 16:28:28,375 [ERROR] scraper.dynamic_scraper: Error during dynamic scraping: Message: Unable to obtain chromedriver using Selenium Manager; Message: Unsuccessful command executed: C:\Users\rites\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --output json.
+The chromedriver version cannot be discovered
+; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2026-04-21 16:28:28,376 [INFO] scraper.dynamic_scraper: Successfully scraped 0 jobs dynamically.
+2026-04-21 16:28:28,376 [INFO] __main__: Total jobs scraped: 100
+2026-04-21 16:28:28,376 [INFO] __main__: Loading raw data to MongoDB...
+2026-04-21 16:28:28,410 [INFO] pipeline.load_mongo: Connected to MongoDB successfully.
+2026-04-21 16:28:28,413 [INFO] pipeline.load_mongo: Successfully loaded 100 raw documents into MongoDB.
+2026-04-21 16:28:28,413 [INFO] __main__: Transforming and cleaning data...
+2026-04-21 16:28:28,418 [INFO] pipeline.transform: Transforming dataset with 100 records.
+2026-04-21 16:28:28,422 [INFO] pipeline.transform: Removed 0 duplicate records.
+2026-04-21 16:28:28,423 [INFO] pipeline.transform: Data transformation complete.
+2026-04-21 16:28:28,423 [INFO] __main__: Loading structured data to PostgreSQL...
+2026-04-21 16:28:28,490 [INFO] pipeline.load_postgres: Connected to PostgreSQL successfully.
+2026-04-21 16:28:28,493 [INFO] pipeline.load_postgres: Table 'jobs' is ready.
+2026-04-21 16:28:28,499 [ERROR] pipeline.load_postgres: Error loading data to PostgreSQL: Using URI string without version '2.0.36' or newer of 'sqlalchemy' installed.
+2026-04-21 16:28:28,499 [INFO] __main__: Pipeline finished successfully in 6.54 seconds.
+2026-04-21 16:28:28,499 [INFO] __main__: =========================================
+2026-04-21 16:33:54,326 [INFO] __main__: =========================================
+2026-04-21 16:33:54,328 [INFO] __main__: Starting Automated Job Data Pipeline...
+2026-04-21 16:33:54,328 [INFO] __main__: =========================================
+2026-04-21 16:33:54,328 [INFO] __main__: Running Static Scraper...
+2026-04-21 16:33:56,270 [INFO] scraper.static_scraper: Fetching [STATIC]: https://realpython.github.io/fake-jobs/ (Attempt 1/3)
+2026-04-21 16:33:56,875 [INFO] scraper.static_scraper: Successfully scraped 100 jobs statically.
+2026-04-21 16:33:56,875 [INFO] __main__: Running Dynamic Scraper...
+2026-04-21 16:34:00,201 [ERROR] scraper.dynamic_scraper: Error during dynamic scraping: Message: Unable to obtain chromedriver using Selenium Manager; Message: Unsuccessful command executed: C:\Users\rites\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --output json.
+The chromedriver version cannot be discovered
+; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2026-04-21 16:34:00,201 [INFO] scraper.dynamic_scraper: Successfully scraped 0 jobs dynamically.
+2026-04-21 16:34:00,201 [INFO] __main__: Total jobs scraped: 100
+2026-04-21 16:34:00,201 [INFO] __main__: Loading raw data to MongoDB...
+2026-04-21 16:34:00,231 [INFO] pipeline.load_mongo: Connected to MongoDB successfully.
+2026-04-21 16:34:00,234 [INFO] pipeline.load_mongo: Successfully loaded 100 raw documents into MongoDB.
+2026-04-21 16:34:00,234 [INFO] __main__: Transforming and cleaning data...
+2026-04-21 16:34:00,248 [INFO] pipeline.transform: Transforming dataset with 100 records.
+2026-04-21 16:34:00,269 [INFO] pipeline.transform: Removed 0 duplicate records.
+2026-04-21 16:34:00,272 [INFO] pipeline.transform: Data transformation complete.
+2026-04-21 16:34:00,272 [INFO] __main__: Loading structured data to PostgreSQL...
+2026-04-21 16:34:00,587 [INFO] pipeline.load_postgres: Connected to PostgreSQL successfully.
+2026-04-21 16:34:00,588 [INFO] pipeline.load_postgres: Table 'jobs' is ready.
+2026-04-21 16:34:00,633 [INFO] pipeline.load_postgres: Successfully loaded 100 structured records into PostgreSQL.
+2026-04-21 16:34:00,633 [INFO] __main__: Pipeline finished successfully in 6.31 seconds.
+2026-04-21 16:34:00,634 [INFO] __main__: =========================================
